@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Sai Chandu DevOps Portfolio</title>
+    <style>
+        :root {
+            --ink: #121212;
+            --charcoal: #232323;
+            --paper: #f8f8f6;
+            --accent: #f0c330;
+            --muted: #666;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            color: var(--ink);
+            background: radial-gradient(circle at top right, #fff7da 0%, var(--paper) 45%, #ffffff 100%);
+            line-height: 1.6;
+        }
+
+        header {
+            background: var(--charcoal);
+            color: #fff;
+            padding: 14px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        nav a:hover {
+            color: var(--accent);
+        }
+
+        main {
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 40px 20px 80px;
+        }
+
+        .hero {
+            background: #fff;
+            border-left: 6px solid var(--ink);
+            box-shadow: 0 8px 26px rgba(0, 0, 0, 0.08);
+            padding: 24px;
+            margin-bottom: 24px;
+        }
+
+        h1, h2 {
+            margin-top: 0;
+        }
+
+        .quick-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+
+        .quick-stats article {
+            background: #fff;
+            border: 1px solid #ececec;
+            padding: 16px;
+        }
+
+        .quick-stats h3 {
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        .quick-stats p {
+            margin: 4px 0 0;
+            color: var(--muted);
+        }
+
+        .actions a {
+            display: inline-block;
+            margin-right: 10px;
+            margin-top: 8px;
+            padding: 10px 14px;
+            border: 1px solid var(--ink);
+            color: var(--ink);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .actions a.primary {
+            background: var(--ink);
+            color: #fff;
+        }
+
+        footer {
+            background: var(--charcoal);
+            color: #fff;
+            text-align: center;
+            padding: 14px 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home">Home</a></li>
+                <li><a href="about">About</a></li>
+                <li><a href="contact">Contact</a></li>
+                <li><a href="courses">Courses</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Sai Chandu DevOps Learning Hub</h1>
+            <p>
+                This site now reflects the work from my GitHub profile,
+                <a href="https://github.com/saichandumadasu" target="_blank" rel="noopener noreferrer">saichandumadasu</a>,
+                where I build and learn with DevOps projects across infrastructure, automation, and cloud-native tooling.
+            </p>
+            <div class="actions">
+                <a class="primary" href="https://github.com/saichandumadasu" target="_blank" rel="noopener noreferrer">View GitHub Profile</a>
+                <a href="courses">Explore Project List</a>
+            </div>
+        </section>
+
+        <section class="quick-stats">
+            <article>
+                <h3>8</h3>
+                <p>Public repositories</p>
+            </article>
+            <article>
+                <h3>37</h3>
+                <p>Contributions in the last year</p>
+            </article>
+            <article>
+                <h3>DevOps</h3>
+                <p>Terraform, Kubernetes, Docker, Python</p>
+            </article>
+        </section>
+
+        <section>
+            <h2>What you will find here</h2>
+            <p>
+                Hands-on repository-driven learning. Instead of generic tutorial lists, each page maps to real projects
+                from my GitHub account so the learning path is practical and portfolio ready.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 saichandumadasu</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses | Sai Chandu DevOps Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background: #f9fafb;
+            color: #151515;
+        }
+
+        header {
+            background-color: #232323;
+            color: #fff;
+            padding: 14px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        nav a:hover {
+            color: #f0c330;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 36px 20px 70px;
+        }
+
+        h1 {
+            margin-top: 0;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 16px;
+        }
+
+        .repo {
+            background: #fff;
+            border: 1px solid #e4e4e4;
+            border-top: 4px solid #232323;
+            padding: 16px;
+        }
+
+        .repo h2 {
+            margin: 0 0 8px;
+            font-size: 1.1rem;
+        }
+
+        .repo p {
+            margin: 0;
+            color: #555;
+        }
+
+        .repo .tech {
+            margin-top: 10px;
+            display: inline-block;
+            padding: 3px 8px;
+            background: #efefef;
+            font-size: 0.85rem;
+        }
+
+        a {
+            color: #1b4db1;
+        }
+
+        footer {
+            background: #232323;
+            color: #fff;
+            text-align: center;
+            padding: 14px 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home">Home</a></li>
+                <li><a href="about">About</a></li>
+                <li><a href="contact">Contact</a></li>
+                <li><a href="courses">Courses</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Repository-Based Learning Tracks</h1>
+            <p>
+                These tracks are based on repositories in my GitHub account.
+                Each item can be treated as a mini course for practical DevOps learning.
+            </p>
+        </section>
+
+        <section class="grid">
+            <article class="repo">
+                <h2><a href="https://github.com/saichandumadasu/devopsproject2" target="_blank" rel="noopener noreferrer">devopsproject2</a></h2>
+                <p>Latest DevOps practice workspace with iterative updates.</p>
+                <span class="tech">Learning Track: DevOps Foundations</span>
+            </article>
+
+            <article class="repo">
+                <h2><a href="https://github.com/saichandumadasu/devopsproject1" target="_blank" rel="noopener noreferrer">devopsproject1</a></h2>
+                <p>Initial project that builds core cloud and operations skills.</p>
+                <span class="tech">Learning Track: Beginner Roadmap</span>
+            </article>
+
+            <article class="repo">
+                <h2><a href="https://github.com/saichandumadasu/asgalbbasic" target="_blank" rel="noopener noreferrer">asgalbbasic</a></h2>
+                <p>Infrastructure experiments using HCL configurations.</p>
+                <span class="tech">Learning Track: Terraform and IaC</span>
+            </article>
+
+            <article class="repo">
+                <h2><a href="https://github.com/saichandumadasu/helloworld" target="_blank" rel="noopener noreferrer">helloworld</a></h2>
+                <p>Simple setup focused on infrastructure and environment basics.</p>
+                <span class="tech">Learning Track: HCL Practice</span>
+            </article>
+
+            <article class="repo">
+                <h2><a href="https://github.com/saichandumadasu/helloservice" target="_blank" rel="noopener noreferrer">helloservice</a></h2>
+                <p>Containerized service with Dockerfile-first workflow.</p>
+                <span class="tech">Learning Track: Containers and Delivery</span>
+            </article>
+
+            <article class="repo">
+                <h2><a href="https://github.com/saichandumadasu/todo" target="_blank" rel="noopener noreferrer">todo</a></h2>
+                <p>Python-based app used as a first DevOps application project.</p>
+                <span class="tech">Learning Track: App Automation</span>
+            </article>
+
+            <article class="repo">
+                <h2><a href="https://github.com/saichandumadasu/research" target="_blank" rel="noopener noreferrer">research</a></h2>
+                <p>Exploratory repository for experiments and technical notes.</p>
+                <span class="tech">Learning Track: R and D</span>
+            </article>
+
+            <article class="repo">
+                <h2><a href="https://github.com/saichandumadasu/KubernatesMyWay" target="_blank" rel="noopener noreferrer">KubernatesMyWay</a></h2>
+                <p>Shell-driven Kubernetes journey with hands-on commands.</p>
+                <span class="tech">Learning Track: Kubernetes</span>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 saichandumadasu</p>
+    </footer>
+</body>
+</html>
