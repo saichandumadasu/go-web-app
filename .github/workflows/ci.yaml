@@ -82,8 +82,8 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.email "madasu.saichandu@gmail.com"
+          git config --global user.name "saichandumadasu"
           git add helm/go-web-app/values.yaml
           git commit -m "Update Helm chart image tag to ${{ github.run_id }}"
           git push origin master
