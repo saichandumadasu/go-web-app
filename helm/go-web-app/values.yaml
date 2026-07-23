@@ -3,7 +3,7 @@ fullname: go-web-app
 
 image:
   repository: madasusaichandu/go-web-app
-  tag: 30006845703
+  tag: 30006926276
   pullPolicy: IfNotPresent
 appPort: 8080
 
