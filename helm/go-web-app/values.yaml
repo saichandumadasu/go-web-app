@@ -1,4 +1,5 @@
 replicaCount: 1
+fullname: go-web-app
 
 image:
   repository: madasusaichandu/go-web-app
