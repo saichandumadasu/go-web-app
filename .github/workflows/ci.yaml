@@ -5,6 +5,9 @@ on:
       - master
     paths-ignore:
         - 'README.md'
+        - '.github/workflows/ci.yaml'
+        - 'go-web-app/k8s/**'
+        - 'go-web-app/helm/**'
   pull_request:
     branches:
       - master
