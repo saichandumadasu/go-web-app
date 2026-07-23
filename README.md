@@ -12,10 +12,6 @@ go run main.go
 
 The server will start on port 8080. You can access it by navigating to `http://localhost:8080/courses` in your web browser.
 
-## Looks like this
-
-![Website](static/images/golang-website.png)
-
 
 git config --global user.email "madasu.saichandu@gmail.com"
 git config --global user.name "saichandumadasu"
