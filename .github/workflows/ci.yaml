@@ -8,6 +8,9 @@ on:
         - '.github/workflows/ci.yaml'
         - 'go-web-app/k8s/**'
         - 'go-web-app/helm/**'
+        - '.github/workflows/**'
+        - 'helm/**'
+        - 'k8s/**'
   pull_request:
     branches:
       - master
